@@ -1,8 +1,8 @@
 from flask import Flask
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flask on Vercel!"
+    return "<h1>Hello from Flask on Vercel!</h1>"
     
